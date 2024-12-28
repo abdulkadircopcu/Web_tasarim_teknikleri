@@ -1,0 +1,36 @@
+/* Seçiciler(Selectors)
+1. Etiket ismi ile seçme (bir etiket değiştirilecekse)
+2. ID ile seçme (tek bir öğe ise)
+3. Class ile seçme (belli bir grup ise) */
+/* En genişten en dara doğru olmalıdır. */
+/* Selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkcyan;
+}
+h1,h2{
+    /* attribute: value */
+    color: red;
+}
+h2{
+    background-color: tan;
+}
+/* Sadece bir tanesi için(id) # işareti id seçici olduğunu gösterir. */
+#p_bir{
+    font-size: 28px;
+    color: aqua;
+}
+#p_iki{
+    font-size: 45px;
+    color: silver;
+}
+/* Class seçiciler . class seçiciler içindir. Bir etikete hem id hem de class verilebilir. Hangisi ile işlem yapılacağı değişir.*/
+.kutu{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    margin-bottom: 50px;
+}
